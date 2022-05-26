@@ -5,6 +5,15 @@ body {
   font-family: Lato, sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -43,17 +52,11 @@ body {
   display: flex;
 }
 
-ul {
-  margin: 0;
-  padding: 0px;
-}
 
-li,
-h3 {
-  list-style: none;
-}
 
-input,
+
+
+.input,
 .button {
   outline: none;
 }
@@ -98,12 +101,12 @@ input,
   display: none;
 }
 
-.task__input:focus {
+.input:focus {
   color: #333;
 }
 
 /* New Task */
-.add-task__title {
+.add-task__title{
   display: block;
   margin: 0 0 20px;
 }
@@ -135,7 +138,7 @@ input,
   width: 226px;
 }
 
-.delete__img {
+.delete__img{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
