@@ -73,7 +73,6 @@ li {
   color: #3a3A3a;
 }
 
-/* Heading */
 .title {
   color: #333;
   font-weight: 700;
@@ -103,7 +102,6 @@ li {
   color: #333;
 }
 
-/* New Task */
 .add-task__title {
   display: block;
   margin: 0 0 20px;
@@ -114,7 +112,6 @@ li {
   display: inline-block;
 }
 
-/* Task list */
 .list__item {
   overflow: hidden;
   padding: 20px 0;
@@ -146,19 +143,16 @@ li {
   transform: rotateZ(0);
 }
 
-/* Completed */
 .completed__list .label {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
-
-.todo__item__edit .input {
+.list__item_edit .input {
   display: inline-block;
   width: 224px;
 }
 
-.todo__item__edit .label {
+.list__item_edit .label {
   display: none;
 }
