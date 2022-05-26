@@ -30,9 +30,11 @@ li {
 }
 
 @media (max-width:768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .main {
@@ -51,10 +53,6 @@ li {
 .add-task__content {
   display: flex;
 }
-
-
-
-
 
 .input,
 .button {
